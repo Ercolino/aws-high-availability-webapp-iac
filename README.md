@@ -1,4 +1,4 @@
-# Deploy a high-availability web app using CloudFormation.
+# Deploy a high-availability web app using AWS CloudFormation.
 
 This is the second project of the Udacity Nanodegree Program "Cloud Dev Ops Engineer".
 The goal was running a high available web app using Infrastructure as Code.
@@ -35,7 +35,7 @@ Run this commands ...
 ./scripts/create.sh <STACK_NAME> <YML TEMPLATE> <JSON PARAMETERS FILE>
 ```
 
--to delete a stack:
+- to delete a stack:
 
 ```
 ./scripts/delete.sh <STACK_NAME>
